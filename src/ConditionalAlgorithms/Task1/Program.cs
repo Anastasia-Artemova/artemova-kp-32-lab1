@@ -31,6 +31,7 @@
             }
         }
 
+
         a = 1 / (2 * Math.Sin(Math.PI + x)) + Math.Pow(Math.Sin((x + y) / z), 2);
         b = Math.Cos(Math.Pow(a, 2) * x) / (2 * y * z);
 
