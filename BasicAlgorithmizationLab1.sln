@@ -1,8 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridAlgorithms", "src\HybridAlgorithms\HybridAlgorithms.csproj", "{C2CB4345-38AC-4E79-AA28-18F86B7462D0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalAlgorithms", "src\ConditionalAlgorithms\ConditionalAlgorithms.csproj", "{F7F029F8-0163-4FC7-B1C0-F19EA2A38F72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "Task1\Task1.csproj", "{59414E63-397D-4066-80AC-5127D04A42DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{42A2837A-DD45-4B27-B475-4BD366147989}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConditionalAlgorithms", "ConditionalAlgorithms", "{B29FFFC3-961C-4D6D-9E07-955AAFAE934B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "src\ConditionalAlgorithms\Task1\Task1.csproj", "{65830241-397B-47E1-820D-DBABE2AF0F71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +27,17 @@ Global
 		{F7F029F8-0163-4FC7-B1C0-F19EA2A38F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7F029F8-0163-4FC7-B1C0-F19EA2A38F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7F029F8-0163-4FC7-B1C0-F19EA2A38F72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59414E63-397D-4066-80AC-5127D04A42DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59414E63-397D-4066-80AC-5127D04A42DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59414E63-397D-4066-80AC-5127D04A42DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59414E63-397D-4066-80AC-5127D04A42DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65830241-397B-47E1-820D-DBABE2AF0F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65830241-397B-47E1-820D-DBABE2AF0F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65830241-397B-47E1-820D-DBABE2AF0F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65830241-397B-47E1-820D-DBABE2AF0F71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B29FFFC3-961C-4D6D-9E07-955AAFAE934B} = {42A2837A-DD45-4B27-B475-4BD366147989}
+		{65830241-397B-47E1-820D-DBABE2AF0F71} = {B29FFFC3-961C-4D6D-9E07-955AAFAE934B}
 	EndGlobalSection
 EndGlobal
